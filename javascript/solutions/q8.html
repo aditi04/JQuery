@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Ques8
+</title>
+</head>
+<body>
+<input type="button" value="STOP" onClick="stop()">
+Output on console.
+<script lanaguage="JavaScript">
+ctr=0;
+val=setInterval("updateTime()",1000);
+function updateTime()
+{
+console.log("updateTime called."+(ctr++)+"<br>");
+}
+function stop()
+{
+clearInterval(val);
+}
+</script>
+</body>
+</html>
