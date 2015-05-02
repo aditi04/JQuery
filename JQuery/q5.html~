@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>QUESTION 4</title>
+<style type="text/css">
+.on {position: absolute;
+    left: 100px;
+    top: 100px;
+    background-color:blue;
+    width:100px;
+    height:100px;
+    }
+
+</style>
+</head>
+<body>
+<div class="on"><center>
+<button>CLICK</button></center>
+</div>
+</body>
+<script language="javascript" src='jquery.js'>
+</script>
+<script>
+
+flag =1;
+$("button").click(function(){
+  if(flag==1) {
+      $("div").animate({left: '300px'});
+      flag = 0;
+              }
+   else{
+      $("div").animate({left: '100px'});
+       flag = 1;
+       }
+});
+        
+
+
+</script>
+
+
+</html>
+

@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>QUESTION 4</title>
+<style type="text/css">
+.on {position: absolute;
+    left: 100px;
+    top: 100px;
+    background-color:yellow;
+    width:300px;
+    height:300px;
+    }
+
+.off{
+     position: absolute;
+    left: 100px;
+    top: 100px;
+    background-color:red;
+    width:300px;
+    height:300px;
+
+}
+
+</style>
+</head>
+<body>
+<div class="on"><center>
+<button value="click" id="but1"/></center>
+</div>
+</body>
+<script language="javascript" src='jquery.js'>
+</script>
+<script>
+$( "button" ).click(function() {
+ $("div").toggleClass("off");
+});
+
+
+</script>
+
+
+</html>
+

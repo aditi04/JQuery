@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>QUESTION 3</title>
+</head>
+<body>
+<p>Hi</p>
+<input type="button" name="Button1" value="Click" onClick="change();"></input>
+</body>
+<script language="javascript" src='jquery.js'>
+function change(){
+if($('p').text()=="Hi")
+{
+$('p').text("Hello");
+}
+else if($('p').text()=="Hello")
+{
+$('p').text("Hi");
+}
+}
+</script>
+
+
+</html>
